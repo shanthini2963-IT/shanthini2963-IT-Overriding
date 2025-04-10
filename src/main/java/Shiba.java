@@ -16,7 +16,9 @@
  * The only requirement to pass the tests is to override the sound() method in this class.
  */
 public class Shiba extends Dog{
-
+    public String sound() {
+        return "Yip";
+    }
 //    override sound() here
 
 }
